@@ -18,24 +18,97 @@
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 6em;
-    text-shadow: 2px, 2px black;
+    text-shadow: 2px,2px black;
     text-align: center;
 }
 #landing p:last-child{
     font-size: 2em;
-    text-shadow:  2px, 2px black;
+    text-shadow: 2px,2px black;
     text-align: center;
 }
 img{
     height: 250px;
-    width: 450px;
+    width: 460px;
     border-radius: 10px;
-    margin-left:1%;
+    margin-left: 1%;
     margin-top: 2px;
 }
 img:hover{
-    background-color: white;
+    background-color: #ffffff;
     color: black;
-    border: 1px solid rgb (255, 255, 255);
-    transition: 5 ease;
+    border: 1px solid rgb(255, 255, 255);
+    transition: .5 ease;
+}
+#blog{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    margin-top: 250px;
+}
+a div{
+    background-color:whitesmoke;
+    color: black;
+    border: 1px solid rgb(255, 255, 255);
+    transition: .5 ease;
+    margin: 5px;
+}
+div:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    margin: 3px;
+}
+#blog h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: -80px;
+    position: absolute;
+}
+h3{
+    padding: 20px 20px;
+    font-size: 30px;
+}
+p:first-of-type,a{
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+#services{
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: whitesmoke
+}
+#services h2{
+    display: center;
+    position: relative;
+    margin-bottom: 3%;
+    padding-inline-start: 45%;
+    padding-inline-end: 40%;
+}
+#services ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#services li{
+    padding: 20px;
+    padding-inline-start: 7%;
+    padding-inline-end: 7%;
+    background-color:white;
+    margin: 1px;
+    list-style: none;
+    font-weight: bold;
+}
+#services li:hover{
+    padding: 20px;
+    padding-inline-start: 7%;
+    padding-inline-end: 7%;
+    background-color: #ff5100;
+    margin: 1px;
+    list-style: none;
+    font-weight: bold;
 }
